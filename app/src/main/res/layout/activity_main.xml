@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ba483b"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:background="@drawable/button1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:text="Player1:0"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:id="@+id/btnplayer1"
+
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:text="Player2:0"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:id="@+id/btnplayer2"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="4"
+    >
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:id="@+id/btn_00"
+        android:background="@drawable/button1"
+        android:textSize="28dp"
+        />
+    <Button
+        android:textSize="28dp"
+
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:id="@+id/btn_01"
+        android:background="@drawable/button1"
+        />
+    <Button
+        android:textSize="28dp"
+
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:id="@+id/btn_02"
+        android:background="@drawable/button1"
+        />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="4"
+            >
+            <Button
+                android:textSize="28dp"
+
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_10"
+                android:background="@drawable/button1"
+                />
+            <Button
+                android:textSize="28dp"
+
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_11"
+                android:background="@drawable/button1"
+                />
+            <Button
+                android:textSize="28dp"
+
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_12"
+                android:background="@drawable/button1"
+                />
+                </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="4"
+        >
+        <Button
+            android:textSize="28dp"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:id="@+id/btn_20"
+            android:background="@drawable/button1"
+            />
+        <Button
+            android:textSize="28dp"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:id="@+id/btn_21"
+            android:background="@drawable/button1"
+            />
+        <Button
+            android:textSize="28dp"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:id="@+id/btn_22"
+            android:background="@drawable/button1"
+            />
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button1"
+            android:text="RESET"
+            android:textSize="40dp"
+            android:id="@+id/btnreset"
+            />
+
+    </LinearLayout>
+</LinearLayout>
